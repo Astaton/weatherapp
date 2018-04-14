@@ -1,0 +1,67 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body{
+  background-color: black;
+}
+
+#background{
+  background-position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+#weatherBox{
+  background: #bfbfbf;
+  height: 500px;
+  width: 500px;
+  border-radius: 15px;
+  opacity: 0.75;
+  margin-top: -50%;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 2;
+  postition: absolute;
+}
+
+.btn{
+  background: #999999;
+  border-color: #787878 #757575 #666666;
+  background-image: -webkit-linear-gradient(top, #adadad 0%, #a6a6a6 50%, #999999 50%, #8e7b7c 100%);
+  background-image: -moz-linear-gradient(top, #adadad 0%, #a6a6a6 50%, #999999 50%, #8e7b7c 100%);
+  background-image: -o-linear-gradient(top, #adadad 0%, #a6a6a6 50%, #999999 50%, #8e7b7c 100%);
+  background-image: linear-gradient(to bottom, #adadad 0%, #a6a6a6 50%, #999999 50%, #8e7b7c 100%);
+  border-radius: 50%;
+  font-size: 13px;
+  position:relative;
+  top:-2px;
+}
+
+.btn:active{
+  background: #a6a6a6;
+  background-image: -webkit-linear-gradient(top, #8a7577 0%, #a1a1a1 60%, #a6a6a6 100%);
+  background-image: -moz-linear-gradient(top, #8a7577 0%, #a1a1a1 60%, #a6a6a6 100%);
+  background-image: -o-linear-gradient(top, #8a7577 0%, #a1a1a1 60%, #a6a6a6 100%);
+  background-image: linear-gradient(to bottom, #8a7577 0%, #a1a1a1 60%, #a6a6a6 100%);  
+}
+
+.weatherBoxText{
+  text-align: center;
+  font-family: helvetica;
+  font-size: 20px;
+  font-color: black;
+  opacity: 1;
+  padding: 5px, 5px, 5px, 5px;
+  
+}
+
+#weatherText{
+  text-align: left;
+  margin: 5px, 5px, 5px, 5px;
+}
