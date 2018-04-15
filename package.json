@@ -1,0 +1,37 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "local weather app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Astaton/weatherapp.git"
+  },
+  "keywords": [
+    "weather",
+    "api"
+  ],
+  "author": "AAron Staton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Astaton/weatherapp/issues"
+  },
+  "homepage": "https://github.com/Astaton/weatherapp#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-htmlmin": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

@@ -1,3 +1,6 @@
+import $ from 'jquery';
+import './style.css';
+
 $(document).ready(function() {
   var address = "https://apifort-ip-tools-v1.p.mashape.com/v1/query/ip/geolocation?ip=74.68.78.144";
   var link = "//api.ipify.org?format=jsonp&callback=?";
