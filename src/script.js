@@ -138,7 +138,7 @@ $(document).ready(function() {
         });
 
         $("#weatherIcon").replaceWith(
-          "<image id='weatherIcon' src=" + imageLink + "></image>"
+          "<image id='weatherIcon' src=" + imageLink + ">"
         );
 
         $("#weatherText").replaceWith(

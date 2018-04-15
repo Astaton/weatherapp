@@ -4,7 +4,7 @@ const gulpHtmlMin = require('gulp-htmlmin');
 
 const src_html = 'public/*.html';
 const src_css = 'src/*.css';
-const dest_html = '';
+const dest_html = 'public/';
 const dest_css = 'src/';
 
 //adds css prefixes to ensure compatibility with 99.5% of browsers used in the US
