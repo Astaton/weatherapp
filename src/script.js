@@ -58,7 +58,7 @@ $(document).ready(function() {
   //sixteen and finds the correlating direction in the windDirectionArr
   function getDirection(degrees) {
     var degreeCount = 0;
-    for (i = 0; i < 17; i++) {
+    for (var i = 0; i < 17; i++) {
       if (i === 0) {
         degreeCount = degreeCount + 12;
       } else if (i == 4 || i == 8 || i == 12) {
